@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
+import Logo from '../Logo'
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
@@ -85,8 +86,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                
+                <Logo />
             </div>
+            
             <Loader type="ball-scale" />
         </>
     )

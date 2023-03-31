@@ -2,6 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import Logo from '../Logo'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +42,9 @@ const About = () => {
               I am confident that my skills and experience make me a strong candidate at your company. Thank you for considering my application. I look forward to the opportunity to discuss my qualifications in further detail.
               </p>
             </div>
+            <Logo />
         </div>
+        
         <Loader type="ball-scale" />
         </>
     )
