@@ -46,12 +46,12 @@ const Home = () => {
             />
             </h1>
             <h2> UI developer / full stack developer</h2>
-            <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+            <Link to="/About" className='flat-button'>Dive Into My Universe</Link>
 
             </div>
             <Logo />
         </div>
-        <Loader type="ball-scale" />
+        <Loader type="ball-scale-multiple" />
       </>
     );
 }

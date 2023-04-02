@@ -89,7 +89,7 @@ const Contact = () => {
                 <Logo />
             </div>
             
-            <Loader type="ball-scale" />
+            <Loader type="ball-scale-multiple" />
         </>
     )
 }

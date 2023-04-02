@@ -1,0 +1,20 @@
+.flat-button {
+    color: #000000;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #C0C0C0;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #C0C0C0;
+      color: #333;
+  }
+}
